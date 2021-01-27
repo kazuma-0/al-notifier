@@ -4,7 +4,7 @@ from time import sleep as wait
 
 userTOKEN = os.environ["userToken"]
 userID = os.environ["userID"]
-userName = os.environ["userName"]
+#userName = os.environ["userName"]
 def headerReturn():
     return {
         "Authorization": "Bearer " + userTOKEN,
